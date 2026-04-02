@@ -1,0 +1,23 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "DEVCORE AI - Minecraft Veteran",
+    "description": "Created by DaffTzy5912",
+    "uuid": "a1b2c3d4-e5f6-7890-abcd-1234567890ab",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 20, 0]
+  },
+  "modules": [
+    {
+      "description": "Script module",
+      "type": "script",
+      "uuid": "b2c3d4e5-f6a7-8901-bcde-2345678901bc",
+      "version": [1, 0, 0],
+      "entry": "scripts/main.js"
+    }
+  ],
+  "dependencies": [
+    { "module_name": "@minecraft/server", "version": "1.7.0" },
+    { "module_name": "@minecraft/server-net", "version": "1.0.0-beta" }
+  ]
+}
